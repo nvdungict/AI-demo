@@ -55,7 +55,7 @@ model = Sequential([
 ])
 
 # Load model weights
-model.load_weights('model1.h5')
+model.load_weights('/Users/quynhnguyen/Downloads/Emotion demo/model/model1.h5')
 
 # Prevents openCL usage and unnecessary logging messages
 cv2.ocl.setUseOpenCL(False)
